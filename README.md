@@ -1,4 +1,4 @@
-# FEE Boilerplate Browserify
+# FEE Boilerplate Webpack 
 
 ## Initial Setup Gotchas with Babel and Webpack
 ### DO NOT DO THESE WHEN STARTING NEW PROJECTS WHEN COPYING THIS REPO
