@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "watch-dev": "",
-    "build": "babel lib -d javascripts"
+    "watch-dev": "webpack-dev-server --inline",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
