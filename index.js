@@ -3,5 +3,5 @@ import { render } from 'react-dom'
 import Main from './lib/main'
 
 render((
-  <Main name="Boilerplate"/>
+  <Main />
 ), document.getElementById('app'))
