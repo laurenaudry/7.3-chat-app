@@ -1,3 +1,66 @@
 /*
   Main Stylesheet
 */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  text-align: center;
+}
+
+.header {
+  border-bottom: 2px solid rgb(235, 235, 235);
+  height: 10%;
+  padding: 1.5rem;
+  text-align: left;
+  width: 80%;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+ }
+
+.chat__app {
+  border-radius: .5rem;
+  display: inline-block;
+  font-family: arial;
+  height: 75rem;
+  padding: 0;
+  position: relative;
+  width: 70rem;
+}
+
+.chat__app--inputArea {
+  border: .3rem solid rgb(187, 189, 191);
+  border-top-right-radius: .6rem;
+  border-bottom-right-radius: .6rem;
+  border-left: 0;
+  font-size: 2rem;
+  height: 6rem;
+  outline: 0;
+  padding-left: 1.2rem;
+  width: 75%;
+}
+
+.chat__app--submit {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(187, 189, 191);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    color: rgb(187, 189, 191);
+    font-size: 2rem;
+    height: 6rem;
+    outline: 0;
+    vertical-align: top;
+    width: 10%;
+  }
+
+.chat__app--submit:hover {
+    border: 0;
+    background-color: rgb(90, 181, 140);
+    color: white;
+    cursor: pointer;
+  }
